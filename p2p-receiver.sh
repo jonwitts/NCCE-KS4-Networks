@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# add /bot/ssh
+# add /boot/ssh
 # cp /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf.bu
 # add /etc/wpa_supplicant/wpa_supplicant.conf
 # Change hostname to networks-p2p-receiver
