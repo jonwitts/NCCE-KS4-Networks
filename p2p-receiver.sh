@@ -5,9 +5,7 @@
 # Change hostname to networks-p2p-receiver
 # Set auto login on console as pi
 # reboot
-apt-get update && apt-get dist-upgrade -y
-apt-get autoremove -y
-apt-get install python3-pip -y
+apt-get update && apt-get dist-upgrade -y && apt-get autoremove -y && apt-get install python3-pip -y
 pip3 install network
 # cp chat.py
 #
