@@ -10,3 +10,12 @@ apt-get autoremove -y
 apt-get install python3-pip
 pip3 install network
 # cp chat.py
+#
+# add to end of /etc/dhcpcd.conf
+#
+#interface eth0
+#
+#static ip_address=192.168.0.3/24
+#static routers=192.168.0.1
+#static domain_name_servers=192.168.0.1
+#
