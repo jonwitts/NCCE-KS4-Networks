@@ -7,7 +7,7 @@
 # reboot
 apt-get update && apt-get dist-upgrade -y
 apt-get autoremove -y
-apt-get install python3-pip
+apt-get install python3-pip -y
 pip3 install network
 # cp chat.py
 #
