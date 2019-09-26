@@ -2,7 +2,17 @@
 # add /boot/ssh
 # cp /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf.bu
 # add /etc/wpa_supplicant/wpa_supplicant.conf
+
+country=GB
+
+network={
+    ssid="testing"
+    psk="testingPassword"
+}
+
+
 # Change hostname to networks-dhcp-server
+/etc/hostname and /etc/hosts
 # Set auto login on console as pi
 # reboot
 apt-get update && apt-get dist-upgrade -y && apt-get autoremove -y && sudo apt-get install dnsmasq -y
