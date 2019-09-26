@@ -31,6 +31,6 @@ mv /etc/dnsmasq.conf /etc/dnsmasq.default
 nano /etc/dnsmasq.conf
 
 #interface=eth0
-#dhcp-range=192.168.0.2,192.168.0.254,255.255.255.0,12h
+#dhcp-range=192.168.0.50,192.168.0.254,255.255.255.0,12h
 
 service dnsmasq restart
